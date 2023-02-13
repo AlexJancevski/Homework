@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 1</title>
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Planet Name</th>
+                <th>Population</th>
+                <th>Climate</th>
+                <th>Gravity</th>
+            </tr>
+        </thead>
+        <tbody class="data"></tbody>
+    </table>
+    <button class="load" onclick="loadPlanets()">Load Planets</button>
+    <button class="previous" onclick="loadPreviousPlanets()" style="display: none;">Previous Planets</button>
+    <button class="next" onclick="loadNextPlanets()" style="display: none;">Next 10 Planets</button>
+</body>
+
+</html>
