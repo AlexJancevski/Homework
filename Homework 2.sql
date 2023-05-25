@@ -90,7 +90,7 @@ CREATE TABLE Customer (
 CREATE TABLE Order (
   orderID SERIAL PRIMARY KEY,
   orderDate DATE,
-  customerID INTEGER REFERENCES Customer (customerID),
+  customerID INTEGER REFERENCES Customer (customerID)
 )
 
 
