@@ -46,15 +46,15 @@ EXECUTE FUNCTION order_details_insert_trigger();
 -- Homework 2/2
 
 CREATE OR REPLACE PROCEDURE InsertOrder(
-  IN businessEntityID INT,
-  IN employeeID INT,
-  IN productID INT,
-  IN quantity INT
+  IN businessEntityID int,
+  IN employeeID int,
+  IN productID int,
+  IN quantity int
 )
 LANGUAGE plpgsql
 AS $$
 DECLARE
-  orderID INT;
+  orderID int;
   orderPrice NUMERIC;
 BEGIN
   INSERT INTO "Order" (businessEntityID, employeeID, orderDate, totalPrice, status)
