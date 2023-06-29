@@ -1,0 +1,86 @@
+/* App.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.song-container {
+    margin-bottom: 20px;
+}
+
+.song {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.song h3 {
+    margin: 0;
+}
+
+.song p {
+    margin: 5px 0;
+}
+
+.song button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.song button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+.playlist h2 {
+    text-align: center;
+}
+
+.playlist-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.playlist-item h3 {
+    margin: 0;
+}
+
+.playlist-item p {
+    margin: 5px 0;
+}
+
+.playlist-item button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+}
